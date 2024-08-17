@@ -1,0 +1,11 @@
+create database Quiz;
+use Quiz;
+
+create table signIn(username varchar(20),name varchar(20),email varchar(50),phoneno varchar(11),password varchar(20));
+
+select * from signIn;
+drop table signIn;
+
+create table score(username varchar(20),name varchar(20),java_score int,python_score int,C_Programming_score int,Cpp_score int,SQL_score int );
+drop table score;
+select * from score;
